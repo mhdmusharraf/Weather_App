@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.bg {
+  height: 100vh;
+  background-image: url("./assets/images/sky.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.glass {
+  width: 30%;
+  height: 60%;
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
